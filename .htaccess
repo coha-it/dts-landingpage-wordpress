@@ -6,7 +6,7 @@
 
 # END WordPress
 
-<Directory .git>
-    order allow,deny
-    deny from all
-</Directory>
+RewriteEngine On
+RewriteRule ^(.*/)?\.git+ - [F,L]
+ErrorDocument 403 "Access Forbidden"
+
