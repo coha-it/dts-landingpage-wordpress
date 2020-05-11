@@ -25,7 +25,7 @@ node_modules/
 
 
 *.log
-.htaccess
+#.htaccess
 sitemap.xml
 sitemap.xml.gz
 wp-config.php
